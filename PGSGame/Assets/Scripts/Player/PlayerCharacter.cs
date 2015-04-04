@@ -60,7 +60,7 @@ public class PlayerCharacter : MonoBehaviour
 	/// Gets the CharacterController component.
 	/// </summary>
 	/// <value>The cntroller.</value>
-	public CharacterController Cntroller
+	public CharacterController Controller
 	{
 		get {return this._controller;}
 	}

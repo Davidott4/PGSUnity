@@ -48,7 +48,7 @@ namespace Helper
 
 	#region Finite State Machine Enumerations
 
-	public enum CametaState
+	public enum CameraState
 	{
 		Normal
 		,Target
@@ -92,6 +92,33 @@ namespace Helper
 
 		}
 
+	}
+
+	public struct CameraMountPoint
+	{
+		private Vector3 position;
+		private Transform xForm;
+		
+		public Vector3 Position
+		{
+			get{return position;}
+			set{position = value;}
+		}
+		
+		public Transform XForm
+		{
+			get{return xForm;}
+			set{xForm = value;}
+		}
+		public void Init(string camName, Vector3 pos, Transform transform, Transform parent)
+		{
+			position = pos;
+			xForm = transform;
+			xForm.name = camName;
+			xForm.localPosition = Vector3.zero;
+			xForm.localPosition = position;
+		}
+		
 	}
 
 

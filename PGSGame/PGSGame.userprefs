@@ -1,10 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\femaleWarrior\Scripts\showCaseAnimation.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js">
     <Files>
-      <File FileName="Assets\femaleWarrior\Scripts\showCaseAnimation.js" Line="249" Column="3" />
-      <File FileName="Assets\Scripts\System\Helper.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\PlayerCharacter.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player/PlayerCamera.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/System/Helper.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player/PlayerMotor.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player/PlayerCharacter.cs" Line="1" Column="1" />
+      <File FileName="Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonCamera.js" Line="1" Column="1" />
+      <File FileName="Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
